@@ -7,12 +7,11 @@ def my_gen():
     yield 3
     print("After 3")
 
-#for i in my_gen():
-#    print(i)
+for i in my_gen():
+   print(i)
 
 # Or we can interate over the object we get back when we call the generator
-g = my_gen()
-print(next(g))
-print(next(g))
-print(next(g))
-print(next(g))
+# g = my_gen()
+# print(next(g))
+# print(next(g))
+# print(next(g))
