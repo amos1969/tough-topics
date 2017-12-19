@@ -1,7 +1,7 @@
-my_table = { 1: ["Dave Ames", "Bolton", "28/04/1969"],
-             2: ["Andy Ames", "Cookley", "06/02/1971"],
-             3: ["Karen Ames", "Doncaster", "04/07/1969"],
-             4: ["Connor Ames", "Bolton", "02/02/2005"]}
+my_table = { 1: ["Dave", "Bolton", "25/05/1969"],
+             2: ["Andy", "Cookley", "02/05/1971"],
+             3: ["Karen", "Doncaster", "03/08/1969"],
+             4: ["Connor", "Bolton", "02/03/2005"]}
 
 def search_on_primary_key(key, table):
     if key in table:
