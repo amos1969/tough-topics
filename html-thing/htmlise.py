@@ -3,5 +3,5 @@ def main():
     print("By David Ames")
     print("December 2017")
 
-
-main()
+if __name__ == "__main__":
+    main()
