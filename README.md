@@ -5,6 +5,9 @@ in York.
 
 # Order of the day
 - Authorisation and validation
-- Creating classes and objects, as well as using other peoples classes
 - Recursion and iteration, including a look at list comprehensions and generators
+- Creating user defined data structures by combining existing ones, using import effectively and creating your own
+module from which to import functions and attributes
+
+
 
