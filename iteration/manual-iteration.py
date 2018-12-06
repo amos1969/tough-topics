@@ -6,4 +6,7 @@ my_list = ["David", "Michael", "Steve", "Simon", "Kirstin", "Luke", "Emma", "Mat
 
 itr = my_list.__iter__()
 while True:
-    print(next(itr))
+    try:
+        print(next(itr))
+    except StopIteration:
+        break

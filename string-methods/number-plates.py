@@ -1,5 +1,5 @@
 def is_it_a_reg_number(reg):
-    if reg[0:2].isalpha() and reg[2:4].isnumeric() and (reg[4] == " ") and reg[5:].isalpha():
+    if reg[0:2].isalpha() and reg[2:4].isnumeric() and (reg[4] == " ") and reg[5:].isalpha() and len(reg) == 8:
         return True
     return False
 

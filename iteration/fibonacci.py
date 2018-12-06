@@ -5,5 +5,5 @@ def fib():
         a, b = b, a + b
 
 itr = fib()
-for _ in range(10):
+for _ in range(100):
     print(next(itr))
